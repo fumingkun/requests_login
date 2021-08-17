@@ -1,0 +1,86 @@
+断言：
+1、从响应结果中，提取表达式 ---jsonpath
+jsonpath文档：http://jsonpath.com/
+
+2、期望结果,如何从响应结果当中，通过jsonpath表达式，提取出要比对的数据?
+第三方库：jsonpath
+pip install jsonpath
+用法：jsonpath.jsonpath(response.json(),jsonpath表达式)
+返回：列表，如果没有匹配到，返回false
+
+3、比对方式 = 相等。。。
+ep  表示相等
+gt  比大小
+
+[{
+"expr":"$.code",
+"expected":"0",
+"type":"eq"
+}]
+
+[{"expr":"$.msg","expected":"成功","type":"eq"}]
+
+faker  第三方库
+使用   from faker import Faker
+
+框架结构分层：
+common:
+    my_requests.py  ---根据项目特色去封装的请求，比如请求头定制/鉴权处理
+    my_excel.py   ---数据驱动，需要从Excel当中读取数据，文件路径，根据指定去读取整个表单的测试用例数据，
+    my_logger.py  ---要记录接口的请求过程，含测试数据、响应结果、断言表达以及比对。。。
+    my_mysql.py  ---封装数据库连接，数据库操作，关闭，数据库连接参数配置在conf目录下，
+    my_conf.py  ---配置文件读取
+    my_path.py  ---框架结构当中，不同的目录路径配置，可移植，
+    handle_phone.py  ---手机号码生成，faker生成，用mysql去确认是否已注册，
+    my_assert.py  ---响应结果的断言封装
+
+conf:
+    配置文件
+
+testcase:
+    pytest版的测试用例
+
+testdata(test_excel)：
+    测试数据 - Excel文件
+
+outputs：
+    logs
+    reports
+
+
+响应断言、占位符替换
+
+
+数据库断言封装
+
+梳理了接口测试流程
+1、在Excel中准备测试数据，  - 登录接口
+2、从Excel当中读取测试数据， - 登录接口
+3、定义一个测试类 TestLogin,使用参数化
+4、在类内部：
+    4.1 如果有要替换的占位符，那么先要替换掉占位符，  --- 也要准备占位符对应的数据，
+    4.2 把替换之后的请求数据（json格式的字符串），转换成一个字典，
+    4.3 发起请求，并接收响应结果。
+    4.4 定义空列表，存放响应断言和数据库断言的最终结果，
+    4.5 处理响应结果断言
+    4.6 处理数据库断言
+    4.7 最后看4.4的列表中是否有False，有就AssertionError
+
+优化：
+    接口url改进
+    base_url做成配置化，然后在封装的my_requests当中去拼接
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

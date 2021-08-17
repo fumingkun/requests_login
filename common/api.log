@@ -1,0 +1,84 @@
+(asctime)s 锦江在线_api INFO my_assert.py [69] 当前要比对的sql语句： 
+SELECT * FROM `city_user`.`user` where user_id='3010MVQGQKKQ'
+(asctime)s 锦江在线_api INFO my_assert.py [70] 当前执行sql的查询类型（查询结果条数/查询某个值）： 
+count
+(asctime)s 锦江在线_api INFO my_assert.py [71] 期望结果为： 
+1
+(asctime)s 锦江在线_api INFO my_assert.py [74] 比对数据库查询的结果条数，是否符合期望
+(asctime)s 锦江在线_api INFO my_assert.py [77] sql的执行结果为： 
+1
+(asctime)s 锦江在线_api INFO my_assert.py [83] 比对的结果为： 
+True
+(asctime)s 锦江在线_api INFO my_assert.py [90] 所有断言成功！
+(asctime)s 锦江在线_api INFO my_assert.py [69] 当前要比对的sql语句： 
+SELECT * FROM `city_user`.`user` where user_id='3010MVQGQKKQ'
+(asctime)s 锦江在线_api INFO my_assert.py [70] 当前执行sql的查询类型（查询结果条数/查询某个值）： 
+count
+(asctime)s 锦江在线_api INFO my_assert.py [71] 期望结果为： 
+1
+(asctime)s 锦江在线_api INFO my_assert.py [74] 比对数据库查询的结果条数，是否符合期望
+(asctime)s 锦江在线_api INFO my_assert.py [77] sql的执行结果为： 
+1
+(asctime)s 锦江在线_api INFO my_assert.py [83] 比对的结果为： 
+True
+(asctime)s 锦江在线_api INFO my_assert.py [90] 所有断言成功！
+(asctime)s 锦江在线_api INFO my_assert.py [69] 当前要比对的sql语句： 
+SELECT * FROM `city_user`.`user` where user_id='3010MVQGQKKQ'
+(asctime)s 锦江在线_api INFO my_assert.py [70] 当前执行sql的查询类型（查询结果条数/查询某个值）： 
+count
+(asctime)s 锦江在线_api INFO my_assert.py [71] 期望结果为： 
+1
+(asctime)s 锦江在线_api INFO my_assert.py [74] 比对数据库查询的结果条数，是否符合期望
+(asctime)s 锦江在线_api INFO my_assert.py [77] sql的执行结果为： 
+1
+(asctime)s 锦江在线_api INFO my_assert.py [83] 比对的结果为： 
+True
+(asctime)s 锦江在线_api INFO my_assert.py [90] 所有断言成功！
+(asctime)s 锦江在线_api INFO my_requests.py [46] 请求url: 
+http://ysh.uat.vshanghai.tech/member/login/loginBySms
+(asctime)s 锦江在线_api INFO my_requests.py [47] 请求方法: 
+post
+(asctime)s 锦江在线_api INFO my_requests.py [48] 请求数据: 
+{'loginName': '15821894461', 'validateCode': '111111'}
+(asctime)s 锦江在线_api INFO my_requests.py [55] 响应结果: 
+{"code":0,"msg":"成功","result":null,"token":"e5093bb4a98374ec5f640aef6b6d7d40f7c87916821c55d6789abc552c8138ec","memId":null,"userId":"3010MVQGQKKQ","weHotelId":"22a389226cf5423ffec02f9ed50284cd","nationCode":"86","mobile":"15821894461","email":null,"fullName":null,"address":null,"identityNo":null,"identityType":null,"isNewMember":0,"passportNo":null,"memberId":"3010MVQGQKKQ","firstNameEn":null,"lastNameEn":null,"virtualMobile":null,"sex":null,"auditing":"0","wifiName":null,"wifiPwd":null,"wifiStatus":"1","passportNationCode":null,"revertStatus":"0","cardType":null,"userName":null,"createTime":1598932089000,"appName":"BGSH_CHINA","avatar":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJa3mE9yzZYJLvAL7ib0P1oXBLaH0peMgvC1xINA8bz6o5EIMEECos4uHWyhapVeJCicicXvu6YicFiaVg/132","birthday":null,"backupMobile":null,"backupNationCode":null,"testUser":false,"userThirdChannelRespList":null,"success":true}
+(asctime)s 锦江在线_api INFO my_requests.py [46] 请求url: 
+http://ysh.uat.vshanghai.tech/member/login/loginBySms
+(asctime)s 锦江在线_api INFO my_requests.py [47] 请求方法: 
+post
+(asctime)s 锦江在线_api INFO my_requests.py [48] 请求数据: 
+{'loginName': '15821894461', 'validateCode': '111111'}
+(asctime)s 锦江在线_api INFO my_requests.py [55] 响应结果: 
+{"code":0,"msg":"成功","result":null,"token":"d348f823d2393b57c6f6c2d7d2bf8d8af7c87916821c55d6789abc552c8138ec","memId":null,"userId":"3010MVQGQKKQ","weHotelId":"22a389226cf5423ffec02f9ed50284cd","nationCode":"86","mobile":"15821894461","email":null,"fullName":null,"address":null,"identityNo":null,"identityType":null,"isNewMember":0,"passportNo":null,"memberId":"3010MVQGQKKQ","firstNameEn":null,"lastNameEn":null,"virtualMobile":null,"sex":null,"auditing":"0","wifiName":null,"wifiPwd":null,"wifiStatus":"1","passportNationCode":null,"revertStatus":"0","cardType":null,"userName":null,"createTime":1598932089000,"appName":"BGSH_CHINA","avatar":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJa3mE9yzZYJLvAL7ib0P1oXBLaH0peMgvC1xINA8bz6o5EIMEECos4uHWyhapVeJCicicXvu6YicFiaVg/132","birthday":null,"backupMobile":null,"backupNationCode":null,"testUser":false,"userThirdChannelRespList":null,"success":true}
+(asctime)s 锦江在线_api INFO my_requests.py [46] 请求url: 
+http://ysh.uat.vshanghai.tech/member/login/loginBySms
+(asctime)s 锦江在线_api INFO my_requests.py [47] 请求方法: 
+post
+(asctime)s 锦江在线_api INFO my_requests.py [48] 请求数据: 
+{'loginName': '15821894461', 'validateCode': '111111'}
+(asctime)s 锦江在线_api INFO my_requests.py [55] 响应结果: 
+{"code":0,"msg":"成功","result":null,"token":"b8a7c6c4fc0d654d833715e4a099c9eff7c87916821c55d6789abc552c8138ec","memId":null,"userId":"3010MVQGQKKQ","weHotelId":"22a389226cf5423ffec02f9ed50284cd","nationCode":"86","mobile":"15821894461","email":null,"fullName":null,"address":null,"identityNo":null,"identityType":null,"isNewMember":0,"passportNo":null,"memberId":"3010MVQGQKKQ","firstNameEn":null,"lastNameEn":null,"virtualMobile":null,"sex":null,"auditing":"0","wifiName":null,"wifiPwd":null,"wifiStatus":"1","passportNationCode":null,"revertStatus":"0","cardType":null,"userName":null,"createTime":1598932089000,"appName":"BGSH_CHINA","avatar":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJa3mE9yzZYJLvAL7ib0P1oXBLaH0peMgvC1xINA8bz6o5EIMEECos4uHWyhapVeJCicicXvu6YicFiaVg/132","birthday":null,"backupMobile":null,"backupNationCode":null,"testUser":false,"userThirdChannelRespList":null,"success":true}
+(asctime)s 锦江在线_api INFO my_requests.py [46] 请求url: 
+http://ysh.uat.vshanghai.tech/member/login/loginBySms
+(asctime)s 锦江在线_api INFO my_requests.py [47] 请求方法: 
+post
+(asctime)s 锦江在线_api INFO my_requests.py [48] 请求数据: 
+{'loginName': '15821894461', 'validateCode': '111111'}
+(asctime)s 锦江在线_api INFO my_requests.py [55] 响应结果: 
+{"code":0,"msg":"成功","result":null,"token":"162a283f84ef564a7d40120677fb9d62f7c87916821c55d6789abc552c8138ec","memId":null,"userId":"3010MVQGQKKQ","weHotelId":"22a389226cf5423ffec02f9ed50284cd","nationCode":"86","mobile":"15821894461","email":null,"fullName":null,"address":null,"identityNo":null,"identityType":null,"isNewMember":0,"passportNo":null,"memberId":"3010MVQGQKKQ","firstNameEn":null,"lastNameEn":null,"virtualMobile":null,"sex":null,"auditing":"0","wifiName":null,"wifiPwd":null,"wifiStatus":"1","passportNationCode":null,"revertStatus":"0","cardType":null,"userName":null,"createTime":1598932089000,"appName":"BGSH_CHINA","avatar":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJa3mE9yzZYJLvAL7ib0P1oXBLaH0peMgvC1xINA8bz6o5EIMEECos4uHWyhapVeJCicicXvu6YicFiaVg/132","birthday":null,"backupMobile":null,"backupNationCode":null,"testUser":false,"userThirdChannelRespList":null,"success":true}
+(asctime)s 锦江在线_api INFO my_requests.py [46] 请求url: 
+http://ysh.uat.vshanghai.tech/member/login/loginBySms
+(asctime)s 锦江在线_api INFO my_requests.py [47] 请求方法: 
+post
+(asctime)s 锦江在线_api INFO my_requests.py [48] 请求数据: 
+{'loginName': '15821894461', 'validateCode': '111111'}
+(asctime)s 锦江在线_api INFO my_requests.py [55] 响应结果: 
+{"code":0,"msg":"成功","result":null,"token":"b5999ed656438c5d9a62f77f7e706db8f7c87916821c55d6789abc552c8138ec","memId":null,"userId":"3010MVQGQKKQ","weHotelId":"22a389226cf5423ffec02f9ed50284cd","nationCode":"86","mobile":"15821894461","email":null,"fullName":null,"address":null,"identityNo":null,"identityType":null,"isNewMember":0,"passportNo":null,"memberId":"3010MVQGQKKQ","firstNameEn":null,"lastNameEn":null,"virtualMobile":null,"sex":null,"auditing":"0","wifiName":null,"wifiPwd":null,"wifiStatus":"1","passportNationCode":null,"revertStatus":"0","cardType":null,"userName":null,"createTime":1598932089000,"appName":"BGSH_CHINA","avatar":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJa3mE9yzZYJLvAL7ib0P1oXBLaH0peMgvC1xINA8bz6o5EIMEECos4uHWyhapVeJCicicXvu6YicFiaVg/132","birthday":null,"backupMobile":null,"backupNationCode":null,"testUser":false,"userThirdChannelRespList":null,"success":true}
+(asctime)s 锦江在线_api INFO my_requests.py [46] 请求url: 
+http://ysh.uat.vshanghai.tech/member/login/loginBySms
+(asctime)s 锦江在线_api INFO my_requests.py [47] 请求方法: 
+post
+(asctime)s 锦江在线_api INFO my_requests.py [48] 请求数据: 
+{'loginName': '15821894461', 'validateCode': '111111'}
+(asctime)s 锦江在线_api INFO my_requests.py [55] 响应结果: 
+{"code":0,"msg":"成功","result":null,"token":"c85643b9caaef3d4c77c6282c3d8787af7c87916821c55d6789abc552c8138ec","memId":null,"userId":"3010MVQGQKKQ","weHotelId":"22a389226cf5423ffec02f9ed50284cd","nationCode":"86","mobile":"15821894461","email":null,"fullName":null,"address":null,"identityNo":null,"identityType":null,"isNewMember":0,"passportNo":null,"memberId":"3010MVQGQKKQ","firstNameEn":null,"lastNameEn":null,"virtualMobile":null,"sex":null,"auditing":"0","wifiName":null,"wifiPwd":null,"wifiStatus":"1","passportNationCode":null,"revertStatus":"0","cardType":null,"userName":null,"createTime":1598932089000,"appName":"BGSH_CHINA","avatar":"https://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTJa3mE9yzZYJLvAL7ib0P1oXBLaH0peMgvC1xINA8bz6o5EIMEECos4uHWyhapVeJCicicXvu6YicFiaVg/132","birthday":null,"backupMobile":null,"backupNationCode":null,"testUser":false,"userThirdChannelRespList":null,"success":true}
